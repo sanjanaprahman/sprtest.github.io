@@ -1633,6 +1633,9 @@ body, input, select, textarea {
 		max-width: 100%;
 		margin-top: 2rem;
 		text-align: center;
+		  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
 	}
 
 		#footer .copyright {
@@ -1673,7 +1676,7 @@ body, input, select, textarea {
 }
 
 #header .content .inner {
-  max-width: 45rem;
+  max-width: 55rem;
   margin: 0 auto;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
