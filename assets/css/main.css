@@ -1328,7 +1328,7 @@ input, select, textarea {
 				}
 
 			#header .content p {
-				letter-spacing: 0.2rem;
+				letter-spacing: 0.1rem;
 				font-size: 0.8rem;
 				line-height: 2;
 			}
@@ -1657,3 +1657,7 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+		
+		#header .content .inner h1 {
+  font-family: 'Noto Sans Display', sans-serif;
+}
