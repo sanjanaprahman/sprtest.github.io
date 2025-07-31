@@ -1663,6 +1663,11 @@ body, input, select, textarea {
 	#header .content .inner h1,
 #footer {
   font-family: 'Outfit', sans-serif;
+  letter-spacing: 0.2rem;
+			font-size: 0.6rem;
+			font-weight: 800;
+			opacity: 0.75;
+			margin-bottom: 0;
 }
 #header .logo img {
   width: 100%;
