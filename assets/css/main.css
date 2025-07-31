@@ -1685,5 +1685,32 @@ body, input, select, textarea {
   overflow: visible; /* allow content to flow */
 }
 
+@keyframes underline-grow {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+h2.major {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 0.5rem;
+  margin: 0 0 2rem 0;
+}
+
+h2.major::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background: #ffffff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  animation: underline-grow 0.8s ease-out forwards;
+}
 
 
