@@ -1658,6 +1658,8 @@ input, select, textarea {
 			opacity: 0;
 		}
 		
-		#header .content .inner h1 {
+	#header .content .inner h1,
+#footer {
   font-family: 'Noto Sans Display', sans-serif;
 }
+
