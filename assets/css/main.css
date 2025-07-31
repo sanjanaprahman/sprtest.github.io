@@ -1633,7 +1633,6 @@ body, input, select, textarea {
 		max-width: 100%;
 		margin-top: 2rem;
 		text-align: center;
-		  text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 0.1rem;
 	}
