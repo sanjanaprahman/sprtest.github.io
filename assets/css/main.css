@@ -1663,9 +1663,6 @@ body, input, select, textarea {
 	#header .content .inner h1,
 #footer {
   font-family: 'Outfit', sans-serif;
-			font-weight: 800;
-			opacity: 0.75;
-			margin-bottom: 0;
 }
 #header .logo img {
   width: 100%;
@@ -1681,3 +1678,6 @@ body, input, select, textarea {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
+
+
+
