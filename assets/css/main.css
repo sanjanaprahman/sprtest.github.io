@@ -140,7 +140,7 @@ input, select, textarea {
 
 body, input, select, textarea {
   color: #ffffff;
-  font-family: 'Noto Sans Display', sans-serif;
+  font-family: 'Outfit', sans-serif;
   font-weight: 300;
   font-size: 1rem;
   line-height: 1.65;
@@ -1638,7 +1638,7 @@ body, input, select, textarea {
 		#footer .copyright {
 			letter-spacing: 0.2rem;
 			font-size: 0.6rem;
-			font-weight: 600;
+			font-weight: 800;
 			opacity: 0.75;
 			margin-bottom: 0;
 			text-transform: uppercase;
@@ -1662,7 +1662,7 @@ body, input, select, textarea {
 		
 	#header .content .inner h1,
 #footer {
-  font-family: 'Noto Sans Display', sans-serif;
+  font-family: 'Outfit', sans-serif;
 }
 #header .logo img {
   width: 100%;
