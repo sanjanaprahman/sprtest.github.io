@@ -1639,7 +1639,7 @@ input, select, textarea {
 			font-size: 0.6rem;
 			opacity: 0.75;
 			margin-bottom: 0;
-			text-transform: uppercase;
+			text-transform: uppercase; bold;
 		}
 
 		body.is-article-visible #footer {
