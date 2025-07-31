@@ -1673,10 +1673,14 @@ body, input, select, textarea {
 }
 
 #header .content .inner {
-  max-width: 40rem;
+  max-width: 45rem;
   margin: 0 auto;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  max-height: none; /* remove height restriction */
+  overflow: visible; /* allow content to flow */
 }
 
 
