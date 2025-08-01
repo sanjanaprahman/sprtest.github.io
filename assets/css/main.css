@@ -2125,5 +2125,46 @@ h2.major::after {
   background: white;
   margin-top: 2rem;
 }
+/* === HOMEPAGE LINE CONNECTIONS === */
+
+/* vertical line: headshot → nav bar */
+#header .logo::after {
+  content: '';
+  display: block;
+  width: 1px;
+  height: 2.5rem;
+  background: white;
+  margin: 0 auto;
+}
+
+/* vertical line: nav bar → horizontal line */
+#header nav::after {
+  content: '';
+  display: block;
+  width: 1px;
+  height: 2.5rem;
+  background: white;
+  margin: 0 auto;
+}
+
+/* horizontal line above bio */
+#header .content::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: white;
+  margin-bottom: 2rem;
+}
+
+/* horizontal line below bio */
+#header .content::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: white;
+  margin-top: 2rem;
+}
 
 
