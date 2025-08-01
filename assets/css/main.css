@@ -1691,8 +1691,8 @@ body, input, select, textarea {
 #header .content .inner {
   max-width: 55rem;
   margin: 2rem auto;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
   max-height: none; /* remove height restriction */
