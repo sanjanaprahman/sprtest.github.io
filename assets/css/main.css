@@ -2078,14 +2078,6 @@ h2.major::after {
 /* wider desktop CV overlay */
 @media screen and (min-width: 737px) {
   #cv {
-    width: 50rem;
-  }
-}
-
-
-/* DESKTOP CV OVERLAY */
-@media screen and (min-width: 737px) {
-  #cv {
     width: 80rem;
   }
 }
