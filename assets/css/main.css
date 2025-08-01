@@ -1714,7 +1714,7 @@ h2.major::after {
 
 /* Style CV section headings with boxed layout */
 #cv h3 {
-  display: inline-block;
+  display: block;
   border: 2px solid #ffffff;
   text-align: center;
   padding: 0.5rem 0.75rem;
