@@ -2094,6 +2094,6 @@ h2.major::after {
 /* DESKTOP CV OVERLAY */
 @media screen and (min-width: 737px) {
   #cv {
-    width: 50rem;
+    width: 80rem;
   }
 }
