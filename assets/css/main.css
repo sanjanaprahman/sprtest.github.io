@@ -1900,6 +1900,60 @@ h2.major::after {
   -ms-flex: 1;
   flex: 1;
 }
+#cv .service-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+#cv .service-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+#cv .service-item .year {
+  -ms-flex: 0 0 25%;
+  flex: 0 0 25%;
+  max-width: 25%;
+  padding-right: 1rem;
+  font-weight: bold;
+}
+
+#cv .service-item .details {
+  -ms-flex: 1;
+  flex: 1;
+}
+#cv .service-list,
+#cv .membership-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+#cv .service-item,
+#cv .membership-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+#cv .service-item .year,
+#cv .membership-item .year {
+  -ms-flex: 0 0 25%;
+  flex: 0 0 25%;
+  max-width: 25%;
+  padding-right: 1rem;
+  font-weight: bold;
+}
+
+#cv .service-item .details,
+#cv .membership-item .details {
+  -ms-flex: 1;
+  flex: 1;
+}
+
+
 
 
 
@@ -1957,6 +2011,27 @@ h2.major::after {
 
   #cv .teaching-item .year {
     white-space: normal;
+  }
+}
+@media screen and (max-width: 480px) {
+  #cv .service-item {
+    display: flex;
+  }
+
+  #cv .service-item .year {
+    white-space: normal;
+  }
+}
+@media screen and (max-width: 480px) {
+  #cv .service-item,
+  #cv .membership-item {
+    display: flex;
+    flex-direction: row; /* keeps it in two columns */
+  }
+
+  #cv .service-item .year,
+  #cv .membership-item .year {
+    white-space: normal; /* allows line-break for year ranges */
   }
 }
 
