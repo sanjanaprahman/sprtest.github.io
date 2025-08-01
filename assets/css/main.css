@@ -1337,6 +1337,7 @@ body, input, select, textarea {
                                font-family: 'Outfit', sans-serif;
                                font-size: 1.25rem;
                                letter-spacing: 0.1rem;
+                               text-transform: uppercase;
                                margin: 0;
                        }
 
