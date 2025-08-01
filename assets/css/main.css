@@ -1900,47 +1900,30 @@ h2.major::after {
   -ms-flex: 1;
   flex: 1;
 }
-#cv .unidept-list {
+#cv .service-list {
   list-style: none;
   padding-left: 0;
 }
 
-#cv .unidept-item {
+#cv .service-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-bottom: 1rem;
 }
 
-#cv .unidept-item .year {
+#cv .service-item .year {
+  -ms-flex: 0 0 25%;
   flex: 0 0 25%;
   max-width: 25%;
   padding-right: 1rem;
   font-weight: bold;
 }
 
-#cv .unidept-item .details {
+#cv .service-item .details {
+  -ms-flex: 1;
   flex: 1;
 }
-#cv .unidept-list {
-  list-style: none;
-  padding-left: 0;
-}
-
-#cv .unidept-item {
-  display: flex;
-  align-items: flex-start;
-  margin-bottom: 1.5rem;
-}
-
-#cv .unidept-item .year {
-  width: 25%;
-  font-weight: bold;
-  padding-right: 1rem;
-}
-
-#cv .unidept-item .details {
-  width: 75%;
-}
-
 
 
 
@@ -2002,29 +1985,8 @@ h2.major::after {
     white-space: normal;
   }
 }
-@media screen and (max-width: 480px) {
-  #cv .unidept-item {
-    flex-direction: column;
-  }
 
-  #cv .unidept-item .year {
-    padding-right: 0;
-    margin-bottom: 0.5rem;
-    white-space: normal;
-  }
-}
-@media screen and (max-width: 480px) {
-  #cv .unidept-item {
-    flex-direction: column;
-  }
 
-  #cv .unidept-item .year {
-    width: 100%;
-    margin-bottom: 0.5rem;
-  }
 
-  #cv .unidept-item .details {
-    width: 100%;
-  }
-}
+
 
