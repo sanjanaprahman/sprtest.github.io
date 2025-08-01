@@ -265,3 +265,15 @@
 			}
 		}
 	}
+	
+	
+	
+	@media screen and (max-width: 736px) {
+  #header {
+    nav {
+      &::before {
+        display: none !important;
+      }
+    }
+  }
+}
