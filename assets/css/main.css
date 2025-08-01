@@ -1327,11 +1327,33 @@ body, input, select, textarea {
 					margin-bottom: 0;
 				}
 
-			#header .content p {
-				letter-spacing: 0.1rem;
-				font-size: 1rem;
-				line-height: 2;
-			}
+		                       #header .content p {
+                               letter-spacing: 0.1rem;
+                               font-size: 1rem;
+                               line-height: 2;
+                       }
+
+                       #header .content .position {
+                               font-family: 'Outfit', sans-serif;
+                               font-size: 1.25rem;
+                               letter-spacing: 0.1rem;
+                               margin: 0;
+                       }
+
+                       #header .content .fields {
+                               font-family: 'Outfit', sans-serif;
+                               font-size: 1rem;
+                               letter-spacing: 0.1rem;
+                               margin: 0 0 1rem 0;
+                       }
+
+                       #header .content .keywords {
+                               font-family: 'Outfit', sans-serif;
+                               font-size: 0.8rem;
+                               text-align: center;
+                               letter-spacing: 0.1rem;
+                               margin-top: 1rem;
+                       }
 
 		#header nav ul {
 			display: -moz-flex;
