@@ -2059,11 +2059,11 @@ h2.major::after {
 }
 
 
-/* wider desktop CV overlay */
+/* DESKTOP CV OVERLAY */
 @media screen and (min-width: 737px) {
   #main article#cv {
-    width: 85vw !important;
-    max-width: 85vw !important;
+    width: 75vw !important;
+    max-width: 75vw !important;
     padding-left: 3rem !important;
     padding-right: 3rem !important;
   }
