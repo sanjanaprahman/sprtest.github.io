@@ -1839,26 +1839,16 @@ h2.major::after {
   #cv .education-item,
   #cv .funding-item,
   #cv .publication-item {
-    display: block !important;
+    display: flex;
   }
 
   #cv .education-item .year,
   #cv .funding-item .year,
   #cv .publication-item .year {
-    display: block !important;
-    width: 100% !important;
-    max-width: 100% !important;
-    margin-bottom: 0.25rem !important;
-    white-space: normal !important;
-  }
-
-  #cv .education-item .details,
-  #cv .funding-item .details,
-  #cv .publication-item .details {
-    display: block !important;
-    width: 100% !important;
+    white-space: normal;
   }
 }
+
 
 
 
