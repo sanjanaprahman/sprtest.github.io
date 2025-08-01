@@ -2093,29 +2093,8 @@ h2.major::after {
   }
 }
 
-<<<<<<< HEAD
-=======
+
 /* === HOMEPAGE HEADER LINE STRUCTURE === */
-
-/* Line from circle photo to nav */
-#header .logo::after {
-  content: '';
-  display: block;
-  width: 1px;
-  height: 2rem;
-  background: white;
-  margin: 0 auto;
-}
-
-/* Line from nav to horizontal divider */
-#header nav::after {
-  content: '';
-  display: block;
-  width: 1px;
-  height: 2rem;
-  background: white;
-  margin: 0 auto;
-}
 
 /* Horizontal line above bio box */
 #header .content::before {
@@ -2136,6 +2115,6 @@ h2.major::after {
   background: white;
   margin-top: 2rem;
 }
->>>>>>> parent of 7a904be (test)
+
 
 
