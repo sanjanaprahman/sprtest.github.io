@@ -1567,7 +1567,7 @@ body, input, select, textarea {
 			position: relative;
 			width: 75vw;
 			max-width: 1200px;
-      background-color: rgba(130, 50, 11, 0.7);
+      background-color: rgba(130, 50, 11, 0.8);
 			border-radius: 4px;
 			opacity: 0;
 		}
@@ -1705,7 +1705,7 @@ body, input, select, textarea {
   padding-bottom: 2rem;
   max-height: none; /* remove height restriction */
   overflow: visible; /* allow content to flow */
-    background-color: rgba(130, 50, 11, 0.85);
+    background-color: rgba(130, 50, 11, 0.8);
 }
 
 @keyframes underline-grow {
