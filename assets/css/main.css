@@ -1940,6 +1940,27 @@ h2.major::after {
 #cv .unidept-item .details {
   flex: 1;
 }
+#cv .membership-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+#cv .membership-item {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+#cv .membership-item .year {
+  flex: 0 0 25%;
+  max-width: 25%;
+  padding-right: 1rem;
+  font-weight: bold;
+}
+
+#cv .membership-item .details {
+  flex: 1;
+}
+
 
 
 
@@ -2019,6 +2040,15 @@ h2.major::after {
   }
 
   #cv .unidept-item .year {
+    white-space: normal;
+  }
+}
+@media screen and (max-width: 480px) {
+  #cv .membership-item {
+    display: flex;
+  }
+
+  #cv .membership-item .year {
     white-space: normal;
   }
 }
