@@ -2061,7 +2061,7 @@ h2.major::after {
 /* wider desktop CV overlay */
 @media screen and (min-width: 737px) {
   #main article#cv {
-    width: 80rem;
+    width: 75vw;
   }
 }
 
