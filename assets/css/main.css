@@ -2048,14 +2048,32 @@ h2.major::after {
     display: flex;
   }
 
-  #cv .membership-item .year {
+#cv .membership-item .year {
+  white-space: normal;
+}
+}
+
+#cv .membership-item .year {
+  white-space: normal;
+}
+}
+
+/* centre name header */
+@media screen and (max-width: 480px) {
+  #cv h3 {
+    width: auto;
+    max-width: 100%;
+    display: inline-block;
     white-space: normal;
   }
 }
+
+
 @media screen and (max-width: 480px) {
-  #cv h3 {
-    white-space: normal;        /* Allow text to wrap */
-    word-break: break-word;     /* Prevent overflow */
-    box-sizing: border-box;     /* Ensure padding is included in width */
+  #header .content .inner h1 {
+    font-size: 1.25rem;
+    letter-spacing: 0.1rem;
+    white-space: nowrap;       
+    text-align: center;
   }
 }
