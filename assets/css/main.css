@@ -2122,20 +2122,10 @@ h2.major::after {
 
 
 
-/*FIX MOBILE LINE*/
+
 @media screen and (max-width: 736px) {
   #header > *:before {
     display: none !important;
-  }
-}
-
-@media screen and (max-width: 736px) {
-  #mobile-connector {
-    display: block;
-    width: 1px;
-    height: 2.5rem;
-    background: white;
-    margin: 0 auto;
   }
 }
 
