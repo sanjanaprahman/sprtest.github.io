@@ -1849,6 +1849,11 @@ h2.major::after {
   }
 }
 
+#header .content .inner h1 {
+  white-space: nowrap;
+  font-size: clamp(1.5rem, 6vw, 2.25rem); /* Adjusts responsively */
+}
+
 
 
 
