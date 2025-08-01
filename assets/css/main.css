@@ -1492,34 +1492,33 @@ body, input, select, textarea {
        padding: 2rem 0;
      }
 
-				#header nav ul {
-					-moz-flex-direction: column;
-					-webkit-flex-direction: column;
-					-ms-flex-direction: column;
-					flex-direction: column;
-					min-width: 10rem;
-					max-width: 100%;
-				}
+                               #header nav ul {
+                                       flex-direction: row;
+                                       flex-wrap: nowrap;
+                                       padding-left: 0;
+                               }
 
-					#header nav ul li {
-						border-left: 0;
-						border-top: solid 1px #ffffff;
-					}
+                                       #header nav ul li {
+                                               flex: 1 1 20%;
+                                               border-left: solid 1px #ffffff;
+                                       }
 
-						#header nav ul li:first-child {
-							border-top: 0;
-						}
+                                               #header nav ul li:first-child {
+                                                       border-left: 0;
+                                               }
 
-						#header nav ul li a {
-							height: 3rem;
-							line-height: 3rem;
-							min-width: 0;
-							width: 100%;
-						}
+                                               #header nav ul li a {
+                                                       font-size: 0.65rem;
+                                                       padding: 0;
+                                                       line-height: 2.5rem;
+                                                       height: 2.5rem;
+                                                       min-width: 0;
+                                                       width: 100%;
+                                               }
 
-				#header nav.use-middle:after {
-					display: none;
-				}
+                               #header nav.use-middle:after {
+                                       display: block;
+                               }
 
 		}
 
