@@ -2056,7 +2056,6 @@ h2.major::after {
   #cv h3 {
     white-space: normal;        /* Allow text to wrap */
     word-break: break-word;     /* Prevent overflow */
-    width: 100%;                /* Make box full width on mobile */
     box-sizing: border-box;     /* Ensure padding is included in width */
   }
 }
