@@ -1448,9 +1448,9 @@ body, input, select, textarea {
 					font-size: 1.75rem;
 				}
 
-			#header .content .inner {
-				padding: 2.5rem 1rem;
-			}
+                       #header .content .inner {
+                                padding: 2rem 1rem;
+                        }
 
 			#header .content p {
 				line-height: 1.875;
@@ -1464,9 +1464,9 @@ body, input, select, textarea {
 				padding: 1.5rem 0;
 			}
 
-				#header .content .inner {
-					padding: 2.5rem 0;
-				}
+      #header .content .inner {
+       padding: 2rem 0;
+     }
 
 				#header nav ul {
 					-moz-flex-direction: column;
@@ -1675,11 +1675,11 @@ body, input, select, textarea {
 
 #header .content .inner {
   max-width: 55rem;
-  margin: 1rem auto;
+  margin: 2rem auto;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   max-height: none; /* remove height restriction */
   overflow: visible; /* allow content to flow */
     background-color: rgba(130, 50, 11, 0.8);
