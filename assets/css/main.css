@@ -2079,7 +2079,7 @@ h2.major::after {
 @media screen and (max-width: 480px) {
   #cv h3 {
     display: inline-block !important;
-    width: max-content !important;
+       width: auto !important;
     white-space: normal !important;
     word-break: break-word !important;
     padding: 0.5rem 0.75rem !important;
