@@ -2069,5 +2069,45 @@ h2.major::after {
   }
 }
 
+.box-reveal {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  padding: 0;
+}
+
+.line {
+  height: 1px;
+  background: white;
+  width: 0%;
+  transition: width 0.7s ease;
+}
+
+.top-line {
+  margin-bottom: 1.5rem;
+}
+
+.bottom-line {
+  margin-top: 1.5rem;
+}
+
+.bio-inner {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.7s ease 0.4s, transform 0.7s ease 0.4s;
+}
+
+/* Animate on load */
+.box-reveal.loaded .top-line,
+.box-reveal.loaded .bottom-line {
+  width: 100%;
+}
+
+.box-reveal.loaded .bio-inner {
+  opacity: 1;
+  transform: translateY(0);
+}
 
 
