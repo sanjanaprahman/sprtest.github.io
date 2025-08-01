@@ -1839,28 +1839,27 @@ h2.major::after {
   #cv .education-item,
   #cv .funding-item,
   #cv .publication-item {
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: flex-start;
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    align-items: flex-start !important;
   }
 
-  #cv .year {
-    white-space: nowrap;
-    margin-right: 1rem;
-    width: auto;
-    max-width: none;
-    flex-shrink: 0;
+  #cv .education-item .year,
+  #cv .funding-item .year,
+  #cv .publication-item .year {
+    white-space: nowrap !important;
+    flex: 0 0 auto !important;
+    max-width: none !important;
+    width: auto !important;
+    margin-right: 1rem !important;
   }
 
-  #cv .details {
-    flex: 1;
+  #cv .education-item .details,
+  #cv .funding-item .details,
+  #cv .publication-item .details {
+    flex: 1 !important;
   }
 }
-/* Prevent year from wrapping on mobile */
-#cv .year {
-  white-space: nowrap;
-  flex: none;
-  max-width: none;
-  width: auto;
-}
+
 
