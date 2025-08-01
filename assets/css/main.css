@@ -1714,12 +1714,9 @@ h2.major::after {
 
 /* Style CV section headings with boxed layout */
 #cv h3 {
-  display: block;
+  display: inline-block;
   border: 2px solid #ffffff;
-  width: -moz-max-content;
-  width: -webkit-max-content;
-  width: -ms-max-content;
-  width: max-content;
+    width: fit-content;
   text-align: left;
   padding: 0.5rem 0.75rem;
   margin: 1rem 0;
@@ -2060,47 +2057,11 @@ h2.major::after {
   }
 }
 
-/*FIX MOBILE CV HEADERS*/
-@media screen and (max-width: 480px) {
-  #cv h3 {
-    display: inline-block;
-       width: -moz-fit-content;
-    width: fit-content;
-    max-width: 100%;
-    white-space: normal;
-    word-break: break-word;
-    padding: 0.5rem 0.75rem;
-    margin: 1rem 0;
-    border: 2px solid #ffffff;
-    box-sizing: border-box;
-  }
-}
 
 /* wider desktop CV overlay */
 @media screen and (min-width: 737px) {
   #main article#cv {
     width: 80rem;
-  }
-}
-
-/*TEST*/
-@media screen and (max-width: 480px) {
-  #cv h3,
-  #cv h3.major {
-    display: inline-block !important;
-    width: auto !important;
-    max-width: 100% !important;
-    white-space: normal;
-    word-break: break-word;
-    padding: 0.5rem 0.75rem;
-    margin: 1rem 0;
-    border: 2px solid #ffffff;
-    box-sizing: border-box;
-  }
-}
-@media screen and (min-width: 737px) {
-  #main > article#cv {
-    width: 80rem !important;
   }
 }
 
