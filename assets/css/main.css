@@ -1826,6 +1826,31 @@ h2.major::after {
   padding: 6rem;
 }
 
+#cv .presentations-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+#cv .presentation-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+#cv .presentation-item .year {
+  -ms-flex: 0 0 25%;
+  flex: 0 0 25%;
+  max-width: 25%;
+  padding-right: 1rem;
+  font-weight: bold;
+}
+
+#cv .presentation-item .details {
+  -ms-flex: 1;
+  flex: 1;
+}
+
 /* Tablet */
 @media screen and (max-width: 1024px) {
   #cv {
@@ -1853,12 +1878,16 @@ h2.major::after {
   white-space: nowrap;
   font-size: clamp(1.5rem, 6vw, 2.25rem); /* Adjusts responsively */
 }
+
 @media screen and (max-width: 480px) {
-  #header .content .inner h1 {
-    letter-spacing: 0.2rem;
+  #cv .presentation-item {
+    display: flex;
+  }
+
+  #cv .presentation-item .year {
+    white-space: normal;
   }
 }
-
 
 
 
