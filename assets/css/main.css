@@ -1839,27 +1839,23 @@ h2.major::after {
   #cv .education-item,
   #cv .funding-item,
   #cv .publication-item {
-    display: flex !important;
-    flex-direction: row !important;
-    flex-wrap: nowrap !important;
-    align-items: flex-start !important;
+    display: block;
   }
 
   #cv .education-item .year,
   #cv .funding-item .year,
   #cv .publication-item .year {
-    white-space: nowrap !important;
-    flex: 0 0 auto !important;
-    max-width: none !important;
-    width: auto !important;
-    margin-right: 1rem !important;
+    display: block;
+    margin-bottom: 0.3rem;
+    white-space: normal;
   }
 
   #cv .education-item .details,
   #cv .funding-item .details,
   #cv .publication-item .details {
-    flex: 1 !important;
+    display: block;
   }
 }
+
 
 
