@@ -1270,16 +1270,7 @@ body, input, select, textarea {
 			margin-top: 3.5rem;
 		}
 
-			#header > *:before {
-				content: '';
-				display: block;
-				position: absolute;
-				top: calc(-3.5rem - 1px);
-				left: calc(50% - 1px);
-				width: 1px;
-				height: calc(3.5rem + 1px);
-				background: #ffffff;
-			}
+	
 
 		#header > :first-child {
 			margin-top: 0;
@@ -2093,5 +2084,46 @@ h2.major::after {
   }
 }
 
+/* === HOMEPAGE HEADER LINE STRUCTURE === */
+
+/* Line from circle photo to nav */
+#header .logo::after {
+  content: '';
+  display: block;
+  width: 1px;
+  height: 2rem;
+  background: white;
+  margin: 0 auto;
+}
+
+/* Line from nav to horizontal divider */
+#header nav::after {
+  content: '';
+  display: block;
+  width: 1px;
+  height: 2rem;
+  background: white;
+  margin: 0 auto;
+}
+
+/* Horizontal line above bio box */
+#header .content::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: white;
+  margin-bottom: 2rem;
+}
+
+/* Horizontal line below bio box */
+#header .content::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: white;
+  margin-top: 2rem;
+}
 
 
