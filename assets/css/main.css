@@ -2052,3 +2052,12 @@ h2.major::after {
     white-space: normal;
   }
 }
+@media screen and (max-width: 480px) {
+  #cv h3 {
+    white-space: normal;        /* Allow text to wrap */
+    word-break: break-word;     /* Prevent overflow */
+    text-align: center;         /* Optional: center-align text */
+    width: 100%;                /* Make box full width on mobile */
+    box-sizing: border-box;     /* Ensure padding is included in width */
+  }
+}
