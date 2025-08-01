@@ -1546,7 +1546,7 @@ body, input, select, textarea {
 			max-width: 100%;
       background-color: #82320B;
 			border-radius: 4px;
-			opacity: 0;
+			opacity: 30;
 		}
 
 			#main article.active {
