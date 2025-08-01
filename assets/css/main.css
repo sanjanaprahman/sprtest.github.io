@@ -1301,13 +1301,14 @@ body, input, select, textarea {
 				font-size: 2rem;
 			}
 
-		#header .content {
-			border-style: solid;
-			border-color: #ffffff;
-			border-top-width: 1px;
-			border-bottom-width: 1px;
-			max-width: 100%;
-		}
+             #header .content {
+                        border-style: solid;
+                        border-color: #ffffff;
+                        border-top-width: 1px;
+                        border-bottom-width: 1px;
+                        max-width: 100%;
+                        background-color: rgba(130, 50, 11, 0.8);
+                }
 
 			#header .content .inner {
 				-moz-transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
