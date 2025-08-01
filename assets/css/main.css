@@ -1818,3 +1818,42 @@ h2.major::after {
   -ms-flex: 1;
   flex: 1;
 }
+
+#cv {
+  max-width: 1800px;
+  margin: 0 auto;
+  width: 70%;
+  padding: 6rem;
+}
+
+/* Tablet */
+@media screen and (max-width: 1024px) {
+  #cv {
+    width: 90%;
+    padding: 3rem;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+  #cv {
+    width: 100%;
+    padding: 1.5rem;
+  }
+
+  #cv h3 {
+    font-size: 1rem;
+    padding: 0.4rem 0.6rem;
+  }
+
+  #cv .education-item,
+  #cv .funding-item,
+  #cv .publication-item {
+    display: block;
+  }
+
+  #cv .year {
+    margin-bottom: 0.5rem;
+  }
+}
+
