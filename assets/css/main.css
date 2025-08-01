@@ -1907,27 +1907,16 @@ h2.major::after {
   margin-bottom: 2rem;
 }
 
-#cv .unidept-item {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 2rem;
-  margin-bottom: 1.5rem;
-}
-
 #cv .unidept-item .year {
   flex: 0 0 25%;
   max-width: 25%;
   font-weight: bold;
-  font-size: 1.25rem;
-  line-height: 1.6;
 }
 
 #cv .unidept-item .details {
   flex: 1;
-  font-size: 1.1rem;
-  line-height: 1.6;
 }
+
 
 
 
