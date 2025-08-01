@@ -1307,7 +1307,6 @@ body, input, select, textarea {
                         border-top-width: 1px;
                         border-bottom-width: 1px;
                         max-width: 100%;
-                        background-color: rgba(130, 50, 11, 0.8);
                 }
 
 			#header .content .inner {
@@ -1676,13 +1675,14 @@ body, input, select, textarea {
 
 #header .content .inner {
   max-width: 55rem;
-  margin: 0 auto;
+  margin: 1rem auto;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   padding-top: 3rem;
   padding-bottom: 3rem;
   max-height: none; /* remove height restriction */
   overflow: visible; /* allow content to flow */
+    background-color: rgba(130, 50, 11, 0.8);
 }
 
 @keyframes underline-grow {
