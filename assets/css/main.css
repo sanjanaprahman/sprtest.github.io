@@ -122,7 +122,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+                @media screen and (max-width: 736px) {
 
 			html {
 				font-size: 11pt;
@@ -1458,10 +1458,16 @@ body, input, select, textarea {
 				margin-top: 2rem;
 			}
 
-				#header > *:before {
-					top: calc(-2rem - 1px);
-					height: calc(2rem + 1px);
-				}
+                        #header > *:before {
+                                top: calc(-2rem - 1px);
+                                height: calc(2rem + 1px);
+                        }
+
+                        /* Keep the connecting line centered on smaller screens */
+                        #header > nav:before {
+                                left: 50%;
+                                transform: translateX(-50%);
+                        }
 
 			#header .logo {
 				width: 4.75rem;
