@@ -2130,16 +2130,3 @@ h2.major::after {
 }
 
 
-/* Vertical line from headshot to nav bar on desktop */
-@media screen and (min-width: 737px) {
-  #header .logo::after {
-    content: '';
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 1px;
-    height: 3.5rem;
-    background: white;
-  }
-}
