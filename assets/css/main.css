@@ -2051,14 +2051,18 @@ h2.major::after {
 /* fix mobile CV headers*/
 @media screen and (max-width: 480px) {
   #cv h3 {
-    white-space: normal;        /* allow wrapping */
-    word-break: break-word;     /* break long words if needed */
-    text-align: left;           /* keep text left-aligned */
-    display: inline-block;      /* let box shrink to content */
-    width: auto;                /* ensure box size matches text */
+    display: inline-block;
+    width: auto;
+    max-width: 100%;
+    white-space: normal;       /* allows wrapping */
+    word-break: break-word;    /* breaks long words */
+    padding: 0.5rem 0.75rem;
+    margin: 1rem 0;
+    border: 2px solid #ffffff;
     box-sizing: border-box;
   }
 }
+
 
 
 /* centre name header */
