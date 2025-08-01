@@ -1853,6 +1853,11 @@ h2.major::after {
   white-space: nowrap;
   font-size: clamp(1.5rem, 6vw, 2.25rem); /* Adjusts responsively */
 }
+@media screen and (max-width: 480px) {
+  #header .content .inner h1 {
+    letter-spacing: 0.2rem;
+  }
+}
 
 
 
