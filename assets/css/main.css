@@ -2054,8 +2054,9 @@ h2.major::after {
     display: inline-block;
     width: auto;
     max-width: 100%;
-    white-space: normal;       /* allows wrapping */
-    word-break: break-word;    /* breaks long words */
+    white-space: normal;
+    word-break: break-word;
+    text-align: left;
     padding: 0.5rem 0.75rem;
     margin: 1rem 0;
     border: 2px solid #ffffff;
@@ -2064,17 +2065,7 @@ h2.major::after {
 }
 
 
-
-/* centre name header */
-@media screen and (max-width: 480px) {
-  #cv h3 {
-    width: auto;
-    max-width: 100%;
-    display: inline-block;
-    white-space: normal;
-  }
-}
-
+/*centre name header*/
 @media screen and (max-width: 480px) {
   #header .content .inner h1 {
     font-size: 1.45rem;
