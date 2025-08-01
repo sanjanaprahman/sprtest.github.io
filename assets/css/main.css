@@ -1716,6 +1716,10 @@ h2.major::after {
 #cv h3 {
   display: block;
   border: 2px solid #ffffff;
+  width: -moz-max-content;
+  width: -webkit-max-content;
+  width: -ms-max-content;
+  width: max-content;
   text-align: left;
   padding: 0.5rem 0.75rem;
   margin: 1rem 0;
