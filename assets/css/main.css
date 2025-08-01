@@ -2121,12 +2121,3 @@ h2.major::after {
 }
 
 
-
-
-@media screen and (max-width: 736px) {
-  #header > *:before {
-    display: none !important;
-  }
-}
-
-
