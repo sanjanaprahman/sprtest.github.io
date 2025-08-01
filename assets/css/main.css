@@ -2115,5 +2115,18 @@ h2.major::after {
   margin-top: 2rem;
 }
 
+/*FIX MOBILE NAV BAR*/
+@media screen and (max-width: 736px) {
+  #header nav:before {
+    display: none !important;
+  }
+}
+.nav-connector {
+  width: 1px;
+  height: 2rem;
+  background: #ffffff;
+  margin: 0 auto;
+}
+
 
 
