@@ -2115,5 +2115,10 @@ h2.major::after {
   margin-top: 2rem;
 }
 
+@media screen and (max-width: 736px) {
+  #header nav:before {
+    display: none;
+  }
+}
 
 
