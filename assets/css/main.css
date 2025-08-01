@@ -1711,5 +1711,12 @@ h2.major::after {
   width: 0;
   animation: underline-grow 0.8s ease-out forwards;
 }
+/* Style CV section headings with boxed layout */
+#cv h3 {
+  border: 2px solid #ffffff;
+  text-align: center;
+  padding: 0.5rem;
+  margin: 1rem 0;
+}
 
 
