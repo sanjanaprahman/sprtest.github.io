@@ -1705,7 +1705,7 @@ body, input, select, textarea {
   padding-bottom: 2rem;
   max-height: none; /* remove height restriction */
   overflow: visible; /* allow content to flow */
-    background-color: rgba(130, 50, 11, 0.8);
+    background-color: rgba(130, 50, 11, 0.85);
 }
 
 @keyframes underline-grow {
