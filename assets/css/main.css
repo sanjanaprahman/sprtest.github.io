@@ -2082,3 +2082,25 @@ h2.major::after {
     width: 80rem;
   }
 }
+
+/*TEST*/
+@media screen and (max-width: 480px) {
+  #cv h3,
+  #cv h3.major {
+    display: inline-block !important;
+    width: auto !important;
+    max-width: 100% !important;
+    white-space: normal;
+    word-break: break-word;
+    padding: 0.5rem 0.75rem;
+    margin: 1rem 0;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+  }
+}
+@media screen and (min-width: 737px) {
+  #main > article#cv {
+    width: 80rem !important;
+  }
+}
+
