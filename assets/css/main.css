@@ -2093,5 +2093,49 @@ h2.major::after {
   }
 }
 
+<<<<<<< HEAD
+=======
+/* === HOMEPAGE HEADER LINE STRUCTURE === */
+
+/* Line from circle photo to nav */
+#header .logo::after {
+  content: '';
+  display: block;
+  width: 1px;
+  height: 2rem;
+  background: white;
+  margin: 0 auto;
+}
+
+/* Line from nav to horizontal divider */
+#header nav::after {
+  content: '';
+  display: block;
+  width: 1px;
+  height: 2rem;
+  background: white;
+  margin: 0 auto;
+}
+
+/* Horizontal line above bio box */
+#header .content::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: white;
+  margin-bottom: 2rem;
+}
+
+/* Horizontal line below bio box */
+#header .content::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: white;
+  margin-top: 2rem;
+}
+>>>>>>> parent of 7a904be (test)
 
 
