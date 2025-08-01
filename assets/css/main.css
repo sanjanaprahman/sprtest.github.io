@@ -1986,17 +1986,10 @@ h2.major::after {
 @media screen and (max-width: 480px) {
   #cv .service-item {
     display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-
-  #cv .service-item .year,
-  #cv .service-item .details {
-    max-width: 100%;
   }
 
   #cv .service-item .year {
-    margin-bottom: 0.25rem;
+    white-space: normal;
   }
 }
 
