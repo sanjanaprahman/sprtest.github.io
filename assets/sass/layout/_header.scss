@@ -187,14 +187,20 @@
 		}
 
 		@include breakpoint('<=small') {
-			> * {
-				margin-top: 2rem;
+                        > * {
+                                margin-top: 2rem;
 
-				&:before {
-					top: calc(-2rem - 1px);
-					height: calc(2rem + 1px);
-				}
-			}
+                                &:before {
+                                        top: calc(-2rem - 1px);
+                                        height: calc(2rem + 1px);
+                                }
+                        }
+
+                        /* Keep connector aligned when stacked */
+                        > nav:before {
+                                left: 50%;
+                                transform: translateX(-50%);
+                        }
 
 			.logo {
 				width: 4.75rem;
