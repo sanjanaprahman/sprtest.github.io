@@ -1410,7 +1410,7 @@ body, input, select, textarea {
 		}
 
 
-
+/* STYLE HEADER BIO CONTENT WITH BORDERED CONTAINER */
              #header .content {
                         border-style: solid;
                         border-color: #ffffff;
@@ -1419,6 +1419,8 @@ body, input, select, textarea {
                         max-width: 100%;
                 }
 
+
+/* ANIMATE BIO BOX OPENING WITH MAX-HEIGHT, PADDING, AND OPACITY */
 			#header .content .inner {
 				-moz-transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
 				-webkit-transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
@@ -1433,24 +1435,32 @@ body, input, select, textarea {
 				overflow: hidden;
 			}
 
+
+/* REMOVE BOTTOM MARGIN ON LAST ELEMENT INSIDE BIO BOX */
 				#header .content .inner > :last-child {
 					margin-bottom: 0;
 				}
 
-		                       #header .content p {
+
+/* STYLE BIO TEXT WITH LETTER-SPACING AND LINE HEIGHT */
+		                  #header .content p {
                                letter-spacing: 0.1rem;
                                font-size: 1rem;
                                line-height: 2;
                        }
+                       
 
+/* STYLE POSITION LINE WITH UPPERCASE FONT AND TIGHT SPACING (PHD CANDIDATE)*/
                        #header .content .position {
                                font-family: 'Outfit', sans-serif;
-                               font-size: 1.25rem;
+                               font-size: 1.15rem;
                                letter-spacing: 0.1rem;
                                text-transform: uppercase;
                                margin: 0;
                        }
 
+
+/* STYLE FIELDS LINE WITH UPPERCASE AND MARGIN BELOW (COMPARATIVE POLITICS)*/
                        #header .content .fields {
                                font-family: 'Outfit', sans-serif;
                                font-size: 1rem;
@@ -1459,6 +1469,8 @@ body, input, select, textarea {
                                margin: 0 0 1rem 0;
                        }
 
+
+/* STYLE KEYWORDS LINE WITH SMALL FONT AND CENTRED TEXT */
                        #header .content .keywords {
                                font-family: 'Outfit', sans-serif;
                                font-size: 0.8rem;
