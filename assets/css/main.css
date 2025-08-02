@@ -1860,7 +1860,7 @@ body, input, select, textarea {
 }
 
 
-
+/* ANIMATE SECTION HEADINGS WITH UNDERLINE GROW EFFECT */
 @keyframes underline-grow {
   from {
     width: 0;
@@ -1889,7 +1889,8 @@ h2.major::after {
   animation: underline-grow 0.8s ease-out forwards;
 }
 
-/* Style CV section headings with boxed layout */
+
+/* STYLE CV SECTION HEADINGS WITH BOXED OUTLINE */
 #cv h3 {
   display: inline-block;
   border: 2px solid #ffffff;
@@ -1903,7 +1904,17 @@ h2.major::after {
   display: block;
 }
 
-/* Education section two-column layout */
+
+/* SET MAX WIDTH AND PADDING FOR CV SECTION CONTAINER */
+#cv {
+  max-width: 1800px;
+  margin: 0 auto;
+  width: 90%;
+  padding: 6rem;
+}
+
+
+/* STYLE EDUCATION SECTION IN TWO-COLUMN LAYOUT */
 #cv .education-list {
   list-style: none;
   padding-left: 0;
@@ -1941,7 +1952,8 @@ h2.major::after {
   flex: 1;
 }
 
-/* Funding section two-column layout */
+
+/* STYLE FUNDING SECTION IN TWO-COLUMN LAYOUT */
 #cv .funding-list {
   list-style: none;
   padding-left: 0;
@@ -1968,7 +1980,7 @@ h2.major::after {
 }
 
 
-/* Publications section two-column layout */
+/* STYLE PUBLICATIONS SECTION IN TWO-COLUMN LAYOUT */
 #cv .publications-list {
   list-style: none;
   padding-left: 0;
@@ -1993,13 +2005,8 @@ h2.major::after {
   flex: 1;
 }
 
-#cv {
-  max-width: 1800px;
-  margin: 0 auto;
-  width: 90%;
-  padding: 6rem;
-}
 
+/* STYLE PRESENTATIONS SECTION IN TWO-COLUMN LAYOUT */
 #cv .presentations-list {
   list-style: none;
   padding-left: 0;
@@ -2025,6 +2032,8 @@ h2.major::after {
   flex: 1;
 }
 
+
+/* STYLE RESEARCH EXPERIENCE SECTION IN TWO-COLUMN LAYOUT */
 #cv .research-list {
   list-style: none;
   padding-left: 0;
@@ -2050,6 +2059,8 @@ h2.major::after {
   flex: 1;
 }
 
+
+/* STYLE TEACHING EXPERIENCE SECTION IN TWO-COLUMN LAYOUT */
 #cv .teaching-list {
   list-style: none;
   padding-left: 0;
@@ -2074,6 +2085,9 @@ h2.major::after {
   -ms-flex: 1;
   flex: 1;
 }
+
+
+/* STYLE COMMUNITY SERVICE SECTION IN TWO-COLUMN LAYOUT */
 #cv .service-list {
   list-style: none;
   padding-left: 0;
@@ -2094,6 +2108,9 @@ h2.major::after {
 #cv .service-item .details {
   flex: 1;
 }
+
+
+/* STYLE UNIVERSITY SERVICE SECTION IN TWO-COLUMN LAYOUT */
 #cv .unidept-list {
   list-style: none;
   padding-left: 0;
@@ -2114,6 +2131,9 @@ h2.major::after {
 #cv .uni-item .details {
   flex: 1;
 }
+
+
+/* STYLE ASSOCIATIONS SECTION IN TWO-COLUMN LAYOUT */
 #cv .association-list {
   list-style: none;
   padding-left: 0;
@@ -2136,14 +2156,7 @@ h2.major::after {
 }
 
 
-
-
-
-
-
-
-
-/* Tablet */
+/* ADJUST CV LAYOUT FOR TABLET SCREENS */
 @media screen and (max-width: 1024px) {
   #cv {
     width: 90%;
@@ -2151,7 +2164,8 @@ h2.major::after {
   }
 }
 
-/* Mobile */
+
+/* ADJUST CV ITEM DISPLAY FOR SMALL MOBILE SCREENS */
 @media screen and (max-width: 480px) {
   #cv .education-item,
   #cv .funding-item,
@@ -2166,11 +2180,15 @@ h2.major::after {
   }
 }
 
+
+/* MAKE HEADER NAME RESPONSIVE WITH CLAMPED FONT SIZE */
 #header .content .inner h1 {
   white-space: nowrap;
   font-size: clamp(1.5rem, 6vw, 2.25rem); /* Adjusts responsively */
 }
 
+
+/* ADJUST PRESENTATION SECTION DISPLAY ON SMALL MOBILE SCREENS */
 @media screen and (max-width: 480px) {
   #cv .presentation-item {
     display: flex;
@@ -2181,6 +2199,8 @@ h2.major::after {
   }
 }
 
+
+/* ADJUST RESEARCH SECTION DISPLAY ON SMALL MOBILE SCREENS */
 @media screen and (max-width: 480px) {
   #cv .research-item {
     display: flex;
@@ -2190,6 +2210,9 @@ h2.major::after {
     white-space: normal;
   }
 }
+
+
+/* ADJUST TEACHING SECTION DISPLAY ON SMALL MOBILE SCREENS */
 @media screen and (max-width: 480px) {
   #cv .teaching-item {
     display: flex;
@@ -2199,6 +2222,9 @@ h2.major::after {
     white-space: normal;
   }
 }
+
+
+/* ADJUST SERVICE SECTION DISPLAY ON SMALL MOBILE SCREENS */
 @media screen and (max-width: 480px) {
   #cv .service-item {
     display: flex;
@@ -2208,6 +2234,9 @@ h2.major::after {
     white-space: normal;
   }
 }
+
+
+/* ADJUST UNIVERSITY SERVICE SECTION DISPLAY ON SMALL MOBILE SCREENS */
 @media screen and (max-width: 480px) {
   #cv .uni-item {
     display: flex;
@@ -2217,14 +2246,16 @@ h2.major::after {
     white-space: normal;
   }
 }
+
+/* ADJUST ASSOCIATIONS SECTION DISPLAY ON SMALL MOBILE SCREENS */
 @media screen and (max-width: 480px) {
   #cv .association-item {
     display: flex;
   }
+}
 
 
-
-/*centre name header*/
+/* CENTRE HEADER NAME ON SMALL MOBILE SCREENS */
 @media screen and (max-width: 480px) {
   #header .content .inner h1 {
     font-size: 1.45rem;
@@ -2235,7 +2266,7 @@ h2.major::after {
 }
 
 
-/* DESKTOP CV OVERLAY */
+/* SET WIDTH AND PADDING OF CV OVERLAY ON DESKTOP SCREENS */
 @media screen and (min-width: 737px) {
   #main article#cv {
     width: 75vw !important;
@@ -2246,9 +2277,7 @@ h2.major::after {
 }
 
 
-/* === HOMEPAGE HEADER LINE STRUCTURE === */
-
-/* Horizontal line above bio box */
+/* DRAW HORIZONTAL LINE ABOVE BIO BOX */
 #header .content::before {
   content: '';
   display: block;
@@ -2258,7 +2287,7 @@ h2.major::after {
   margin-bottom: 2rem;
 }
 
-/* Horizontal line below bio box */
+/* DRAW HORIZONTAL LINE BELOW BIO BOX */
 #header .content::after {
   content: '';
   display: block;
