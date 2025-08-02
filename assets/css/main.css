@@ -1621,6 +1621,8 @@ body, input, select, textarea {
 
 		}
 
+
+/* ADJUST HEADER LAYOUT AND NAVIGATION FOR SMALL MOBILE SCREENS */
 		@media screen and (max-width: 480px) {
 
 			#header {
@@ -1655,12 +1657,14 @@ body, input, select, textarea {
                                                        width: 100%;
                                                }
 
-                             
+                               #header nav.use-middle:after {
+                                       display: none;
+                               }
 
 		}
 
-/* Main */
 
+/* STYLE MAIN SECTION TO CENTRE CONTENT WITH FLEX LAYOUT */
 	#main {
 		-moz-flex-grow: 1;
 		-webkit-flex-grow: 1;
@@ -1691,6 +1695,8 @@ body, input, select, textarea {
 		z-index: 3;
 	}
 
+
+/* STYLE ARTICLE CONTAINERS WITH ANIMATION, WIDTH, AND BACKGROUND */
 		#main article {
 			-moz-transform: translateY(0.25rem);
 			-webkit-transform: translateY(0.25rem);
@@ -1709,6 +1715,8 @@ body, input, select, textarea {
 			opacity: 0;
 		}
 
+
+/* ACTIVATE ARTICLE WITH FULL OPACITY AND RESET TRANSFORM */
 			#main article.active {
 				-moz-transform: translateY(0);
 				-webkit-transform: translateY(0);
@@ -1717,6 +1725,8 @@ body, input, select, textarea {
 				opacity: 1;
 			}
 
+
+/* STYLE CLOSE BUTTON FOR ARTICLES WITH ICON BACKGROUND */
 			#main article .close {
 				display: block;
 				position: absolute;
@@ -1757,6 +1767,8 @@ body, input, select, textarea {
 					background-color: rgba(255, 255, 255, 0.175);
 				}
 
+
+/* ADJUST ARTICLE PADDING AND CLOSE BUTTON SIZE ON TABLET SCREENS */
 		@media screen and (max-width: 736px) {
 
 			#main article {
@@ -1773,6 +1785,8 @@ body, input, select, textarea {
 
 		}
 
+
+/* REDUCE ARTICLE PADDING ON SMALL MOBILE SCREENS */
 		@media screen and (max-width: 480px) {
 
 			#main article {
