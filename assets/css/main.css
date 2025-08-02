@@ -1819,9 +1819,6 @@ body, input, select, textarea {
 			opacity: 0.75;
 			margin-bottom: 0;
 			text-transform: uppercase;
-			.copyright .symbol {
-  font-size: 1.3em;
-}
 		}
 
 
@@ -1859,6 +1856,8 @@ body, input, select, textarea {
   display: block;
 }
 
+
+/* CUSTOMISE BIO BOX WITH FIXED WIDTH, PADDING, AND BACKGROUND */
 #header .content .inner {
   max-width: 55rem;
   margin: 2rem auto;
