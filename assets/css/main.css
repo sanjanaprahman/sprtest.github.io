@@ -1479,6 +1479,7 @@ body, input, select, textarea {
                                margin-top: 1rem;
                        }
 
+/* STYLE NAVIGATION BAR WITH FLEX LAYOUT AND BORDER */
 		#header nav ul {
 			display: -moz-flex;
 			display: -webkit-flex;
@@ -1520,6 +1521,8 @@ body, input, select, textarea {
 						background-color: rgba(255, 255, 255, 0.175);
 					}
 
+
+/* STYLE NAVIGATION BAR ITEMS AND LINK INTERACTIONS */
 		#header nav.use-middle:after {
 			content: '';
 			display: block;
@@ -1535,6 +1538,8 @@ body, input, select, textarea {
 			border-left: 0;
 		}
 
+
+/* APPLY TRANSFORM AND BLUR TO HEADER WHEN ARTICLE IS ACTIVE */
 		body.is-article-visible #header {
 			-moz-transform: scale(0.95);
 			-webkit-transform: scale(0.95);
@@ -1554,6 +1559,8 @@ body, input, select, textarea {
 			filter: blur(0.125rem);
 		}
 
+
+/* APPLY INITIAL BLUR AND FADE-IN EFFECT TO HEADER ON PAGE LOAD */
 			body.is-preload #header > * {
 				opacity: 0;
 			}
@@ -1565,6 +1572,8 @@ body, input, select, textarea {
 				opacity: 0;
 			}
 
+
+/* ADJUST HEADER SPACING AND CONNECTING LINE ON TABLET SCREENS */
 		@media screen and (max-width: 980px) {
 
 			#header .content p br {
@@ -1573,6 +1582,8 @@ body, input, select, textarea {
 
 		}
 
+
+/* SCALE DOWN HEADER ELEMENTS AND BIO BOX PADDING ON SMALL SCREENS */
 		@media screen and (max-width: 736px) {
 
 			#header > * {
