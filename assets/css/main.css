@@ -1017,6 +1017,8 @@ body, input, select, textarea {
 		overflow-x: auto;
 	}
 
+
+/* STYLE BASE TABLE ELEMENTS WITH SPACING, COLOURS, AND STRUCTURE */
 	table {
 		margin: 0 0 2rem 0;
 		width: 100%;
@@ -1052,6 +1054,8 @@ body, input, select, textarea {
 			border-top: solid 2px #ffffff;
 		}
 
+
+/* STYLE ALTERNATE TABLES WITH BOXED GRID LAYOUT */
 		table.alt {
 			border-collapse: separate;
 		}
@@ -1078,8 +1082,8 @@ body, input, select, textarea {
 				border-top: 0;
 			}
 
-/* Button */
 
+/* STYLE BUTTONS WITH OUTLINED DESIGN, TRANSITIONS, AND VARIANTS */
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
@@ -1113,6 +1117,8 @@ body, input, select, textarea {
 		white-space: nowrap;
 	}
 
+
+/* ADD HOVER AND ACTIVE STATES FOR BUTTON INTERACTIONS */
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
@@ -1129,6 +1135,7 @@ body, input, select, textarea {
 			background-color: rgba(255, 255, 255, 0.175);
 		}
 
+/* ADD BUTTON VARIANTS: ICONS, FULL-WIDTH, SMALL, PRIMARY, AND DISABLED */
 		input[type="submit"].icon:before,
 		input[type="reset"].icon:before,
 		input[type="button"].icon:before,
@@ -1179,6 +1186,8 @@ body, input, select, textarea {
 			opacity: 0.25;
 		}
 
+
+/* FIX BUTTON TEXT VERTICAL ALIGNMENT WITH PRECISE LINE-HEIGHT */
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
@@ -1186,8 +1195,8 @@ body, input, select, textarea {
 		line-height: calc(2.75rem - 2px);
 	}
 
-/* BG */
 
+/* SET FIXED FULLSCREEN BACKGROUND CONTAINER */
 	#bg {
 		-moz-transform: scale(1.0);
 		-webkit-transform: scale(1.0);
@@ -1202,6 +1211,8 @@ body, input, select, textarea {
 		z-index: 1;
 	}
 
+
+/* ADD FULLSCREEN LAYERS FOR OVERLAY AND IMAGE USING PSEUDO-ELEMENTS */
 		#bg:before, #bg:after {
 			content: '';
 			display: block;
@@ -1212,11 +1223,13 @@ body, input, select, textarea {
 			height: 100%;
 		}
 
+
+/* STYLE DARK OVERLAY WITH TEXTURE AND TRANSITION ON LOAD */
 		#bg:before {
 			-moz-transition: background-color 2.5s ease-in-out;
 			-webkit-transition: background-color 2.5s ease-in-out;
 			-ms-transition: background-color 2.5s ease-in-out;
-			transition: background-color 2.5s ease-in-out;
+			transition: background-color 1.5s ease-in-out;
 			-moz-transition-delay: 0.75s;
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
@@ -1231,6 +1244,8 @@ body, input, select, textarea {
 			z-index: 2;
 		}
 
+
+/* STYLE BACKGROUND IMAGE WITH SCALE AND BLUR TRANSITIONS */
 		#bg:after {
 			-moz-transform: scale(1.125);
 			-webkit-transform: scale(1.125);
@@ -1247,6 +1262,8 @@ body, input, select, textarea {
 			z-index: 1;
 		}
 
+
+/* APPLY BLUR AND SCALE WHEN ARTICLE IS ACTIVE */
 		body.is-article-visible #bg:after {
 			-moz-transform: scale(1.0825);
 			-webkit-transform: scale(1.0825);
@@ -1258,6 +1275,8 @@ body, input, select, textarea {
 			filter: blur(0.2rem);
 		}
 
+
+/* SET SOLID BLACK BACKGROUND BEFORE LOAD */
 		body.is-preload #bg:before {
 			background-color: #000000;
 		}
