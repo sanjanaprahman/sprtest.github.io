@@ -1819,6 +1819,9 @@ body, input, select, textarea {
 			opacity: 0.75;
 			margin-bottom: 0;
 			text-transform: uppercase;
+			.copyright .symbol {
+  font-size: 1.3em;
+}
 		}
 
 
