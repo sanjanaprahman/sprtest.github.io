@@ -1281,8 +1281,8 @@ body, input, select, textarea {
 			background-color: #000000;
 		}
 
-/* Wrapper */
 
+/* SET FLEX LAYOUT AND PADDING FOR MAIN PAGE WRAPPER */
 	#wrapper {
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -1312,6 +1312,8 @@ body, input, select, textarea {
 			display: block;
 		}
 
+
+/* ADJUST WRAPPER PADDING FOR WIDE SCREENS (≤1680PX) */
 		@media screen and (max-width: 1680px) {
 
 			#wrapper {
@@ -1320,6 +1322,8 @@ body, input, select, textarea {
 
 		}
 
+
+/* REDUCE WRAPPER PADDING ON TABLET SCREENS (≤736PX) */
 		@media screen and (max-width: 736px) {
 
 			#wrapper {
@@ -1327,7 +1331,9 @@ body, input, select, textarea {
 			}
 
 		}
-
+		
+		
+/* MINIMISE WRAPPER PADDING ON MOBILE SCREENS (≤480PX) */
 		@media screen and (max-width: 480px) {
 
 			#wrapper {
@@ -1336,8 +1342,7 @@ body, input, select, textarea {
 
 		}
 
-/* Header */
-
+/* SET HEADER AS FLEX COLUMN WITH CENTRING AND GRADIENT BACKGROUND */
 	#header {
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -1363,6 +1368,8 @@ body, input, select, textarea {
 		text-align: center;
 	}
 
+
+/* STACK HEADER CHILDREN WITH TOP MARGIN AND CONNECTOR LINE */
 		#header > * {
 			-moz-transition: opacity 0.325s ease-in-out;
 			-webkit-transition: opacity 0.325s ease-in-out;
@@ -1384,6 +1391,7 @@ body, input, select, textarea {
 			}
 
 
+/* REMOVE CONNECTOR LINE ABOVE FIRST HEADER CHILD */
 		#header > :first-child {
 			margin-top: 0;
 		}
@@ -1392,6 +1400,7 @@ body, input, select, textarea {
 				display: none;
 			}
 
+/* STYLE LOGO AS CIRCLE WITH BORDER AND ICON SIZE */
 		#header .logo {
 			width: 8rem;
 			height: 8rem;
@@ -1400,9 +1409,7 @@ body, input, select, textarea {
 			border-radius: 100%;
 		}
 
-			#header .logo .icon:before {
-				font-size: 2rem;
-			}
+
 
              #header .content {
                         border-style: solid;
