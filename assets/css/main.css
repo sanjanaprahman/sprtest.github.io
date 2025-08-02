@@ -1814,13 +1814,15 @@ body, input, select, textarea {
 /* STYLE FOOTER COPYRIGHT LINE WITH SMALL UPPERCASE TEXT */
 		#footer .copyright {
 			letter-spacing: 0.2rem;
-			font-size: 0.6rem;
+			font-size: 0.7rem;
 			font-weight: 800;
 			opacity: 0.75;
 			margin-bottom: 0;
 			text-transform: uppercase;
 		}
 
+
+/* FADE AND SCALE FOOTER WHEN ARTICLE IS ACTIVE OR ON LOAD */
 		body.is-article-visible #footer {
 			-moz-transform: scale(0.95);
 			-webkit-transform: scale(0.95);
@@ -1836,11 +1838,16 @@ body, input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
-		
+
+
+/* SET FONT FOR HEADER NAME AND FOOTER USING OUTFIT (IN CASE INHERITED FONT IS CHANGED)*/
 	#header .content .inner h1,
 #footer {
   font-family: 'Outfit', sans-serif;
 }
+
+
+/* STYLE LOGO IMAGE TO FIT CIRCULAR CONTAINER */
 #header .logo img {
   width: 100%;
   height: 100%;
