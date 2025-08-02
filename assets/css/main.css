@@ -1834,6 +1834,9 @@ body, input, select, textarea {
 			opacity: 0.75;
 			margin-bottom: 0;
 			text-transform: uppercase;
+			.copyright .symbol {
+  font-size: 1.3em;
+}
 		}
 
 
@@ -1871,8 +1874,23 @@ body, input, select, textarea {
   display: block;
 }
 
+<<<<<<< HEAD
 
 /* ANIMATE SECTION HEADINGS WITH UNDERLINE GROW EFFECT */
+=======
+#header .content .inner {
+  max-width: 55rem;
+  margin: 2rem auto;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  max-height: none; /* remove height restriction */
+  overflow: visible; /* allow content to flow */
+    background-color: rgba(130, 50, 11, 0.8);
+}
+
+>>>>>>> parent of 9de55dd (label7*)
 @keyframes underline-grow {
   from {
     width: 0;
