@@ -1795,8 +1795,8 @@ body, input, select, textarea {
 
 		}
 
-/* Footer */
 
+/* STYLE FOOTER WITH CENTRED TEXT AND TRANSITIONS */
 	#footer {
 		-moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
 		-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
@@ -1810,6 +1810,8 @@ body, input, select, textarea {
   letter-spacing: 0.1rem;
 	}
 
+
+/* STYLE FOOTER COPYRIGHT LINE WITH SMALL UPPERCASE TEXT */
 		#footer .copyright {
 			letter-spacing: 0.2rem;
 			font-size: 0.6rem;
