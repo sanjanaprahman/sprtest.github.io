@@ -1,6 +1,4 @@
-/* ========================================= */
-/* 1. RESET: Remove default margins/padding  */
-/* ========================================= */
+/* REMOVE DEFAULT MARGINS, PADDING, BORDERS, AND FONT INHERITANCE ON ALL ELEMENTS */
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -21,21 +19,19 @@ section, summary, time, mark, audio, video {
 }
 
 
-/* ============================================== */
-/* 2. HTML5 BLOCK ELEMENTS (for older browsers)   */
-/* ============================================== */
+/* SET HTML5 ELEMENTS TO DISPLAY BLOCK FOR LEGACY BROWSER SUPPORT */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
-body {
-	line-height: 1;
-}
 
+/* REMOVE DEFAULT BULLETS AND NUMBERING FROM UNORDERED AND ORDERED LISTS */
 ol, ul {
 	list-style: none;
 }
 
+
+/* REMOVE AUTOMATIC QUOTE MARKS FROM BLOCKQUOTE AND Q ELEMENTS */
 blockquote, q {
 	quotes: none;
 }
@@ -45,25 +41,35 @@ blockquote, q {
 		content: none;
 	}
 
+
+/* REMOVE DEFAULT CELL SPACING AND ENABLE BORDER COLLAPSING FOR TABLES */
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
 
+
+/* PREVENT IOS SAFARI FROM AUTO-RESIZING TEXT ON ROTATION OR ZOOM */
 body {
 	-webkit-text-size-adjust: none;
 }
 
+
+/* REMOVE DEFAULT HIGHLIGHT BACKGROUND AND INHERIT TEXT COLOR FOR MARK TAG */
 mark {
 	background-color: transparent;
 	color: inherit;
 }
 
+
+/* REMOVE INNER BORDER AND PADDING FROM INPUTS AND BUTTONS IN FIREFOX */
 input::-moz-focus-inner {
 	border: 0;
 	padding: 0;
 }
 
+
+/* REMOVE DEFAULT BROWSER STYLING FROM INPUT, SELECT, AND TEXTAREA ELEMENTS */
 input, select, textarea {
 	-moz-appearance: none;
 	-webkit-appearance: none;
@@ -71,12 +77,8 @@ input, select, textarea {
 	appearance: none;
 }
 
-/* Basic */
 
-	@-ms-viewport {
-		width: device-width;
-	}
-
+/* ENSURE MINIMUM WIDTH OF 320PX ON SMALL SCREENS TO PREVENT LAYOUT COLLAPSE */
 	@media screen and (max-width: 480px) {
 
 		html, body {
@@ -85,6 +87,8 @@ input, select, textarea {
 
 	}
 
+
+/* USE BORDER-BOX BOX-SIZING MODEL FOR ALL ELEMENTS TO SIMPLIFY LAYOUT CALCULATIONS */
 	html {
 		box-sizing: border-box;
 	}
@@ -93,10 +97,14 @@ input, select, textarea {
 		box-sizing: inherit;
 	}
 
+
+/* SET DARK BACKGROUND COLOR FOR ENTIRE SITE */
 	body {
 		background: #1b1f22;
 	}
 
+
+/* DISABLE ANIMATIONS AND TRANSITIONS DURING INITIAL PAGE LOAD (IS-PRELOAD) */
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
 			-webkit-animation: none !important;
@@ -108,35 +116,31 @@ input, select, textarea {
 			transition: none !important;
 		}
 
-/* Type */
 
-	html {
-		font-size: 16pt;
-	}
+/* SET RESPONSIVE ROOT FONT SIZE IN REM UNITS */
+html {
+  font-size: 100%;      /* 16px default */
+}
 
-		@media screen and (max-width: 1680px) {
+@media screen and (max-width: 1680px) {
+  html {
+    font-size: 94%;     /* ~15px */
+  }
+}
 
-			html {
-				font-size: 12pt;
-			}
+@media screen and (max-width: 736px) {
+  html {
+    font-size: 88%;     /* ~14px */
+  }
+}
 
-		}
+@media screen and (max-width: 360px) {
+  html {
+    font-size: 81.25%;  /* ~13px */
+  }
+}
 
-                @media screen and (max-width: 736px) {
 
-			html {
-				font-size: 11pt;
-			}
-
-		}
-
-		@media screen and (max-width: 360px) {
-
-			html {
-				font-size: 10pt;
-			}
-
-		}
 
 body, input, select, textarea {
   color: #ffffff;
