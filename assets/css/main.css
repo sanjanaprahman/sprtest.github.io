@@ -1678,22 +1678,6 @@ body, input, select, textarea {
 
 		}
 
-/* CHATGPT --- ADD VERTICAL LINE FROM NAV BAR TO HEADER CONTENT */
-#header nav ul {                            /* ← Already at line 2610 */
-  position: relative;
-}
-
-#header nav ul::after {                     /* 💡 Add starting line 2623 */
-  content: '';
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 1px;
-  height: 2rem;
-  background: #ffffff;
-}
-
 
 /* STYLE MAIN SECTION TO CENTRE CONTENT WITH FLEX LAYOUT */
 	#main {
