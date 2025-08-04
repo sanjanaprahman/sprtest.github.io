@@ -1677,8 +1677,7 @@ body, input, select, textarea {
                                }
 
 		}
-
-
+/* CODING */
 /* STYLE MAIN SECTION TO CENTRE CONTENT WITH FLEX LAYOUT */
 	#main {
 		-moz-flex-grow: 1;
