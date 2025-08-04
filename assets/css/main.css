@@ -1378,7 +1378,7 @@ body, input, select, textarea {
 			position: relative;
 			margin-top: 3.5rem;
 		}
-
+/*
 			#header > :before {
 				content: '';
 				display: block;
@@ -1389,7 +1389,7 @@ body, input, select, textarea {
 				height: calc(3.5rem + 1px);
 				background: #ffffff;
 			}
-
+*/
 
 /* REMOVE CONNECTOR LINE ABOVE FIRST HEADER CHILD */
 		#header > :first-child {
@@ -1677,6 +1677,22 @@ body, input, select, textarea {
                                }
 
 		}
+
+/* CHATGPT --- ADD VERTICAL LINE FROM NAV BAR TO HEADER CONTENT */
+#header nav ul {                            /* ← Already at line 2610 */
+  position: relative;
+}
+
+#header nav ul::after {                     /* 💡 Add starting line 2623 */
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1px;
+  height: 2rem;
+  background: #ffffff;
+}
 
 
 /* STYLE MAIN SECTION TO CENTRE CONTENT WITH FLEX LAYOUT */
